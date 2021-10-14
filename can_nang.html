@@ -1,0 +1,28 @@
+<html>
+    <head>
+     <meta charset="UTF-8">  
+    </head>
+    <body>
+    <script>
+    let can_nang=parseInt(prompt("Nhập cân nặng"));
+    let chieu_cao=parseInt(prompt("nhập chiều cao"));
+    let BMI= can_nang/(chieu_cao*chieu_cao);
+    if(BMI < 18)
+    {
+        alert("Underweight");
+    }
+    else if(BMI < 25.0)
+    {
+        alert("Normal");
+    }
+    else if(BMI < 30.0)
+    {
+        alert("Overweight");
+    }
+    else
+    {
+        alert("Obese");
+    }
+    </script> 
+    </body>
+</html>
